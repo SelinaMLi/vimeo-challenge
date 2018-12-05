@@ -19,7 +19,7 @@ const Slide = props => {
 					<img src={props.posterSrc} alt="" />
 				</div>
 				<div className="row">
-					<div className="col-lg-4 SlideImageContainer">
+					<div className="col-lg-5 SlideImageContainer">
 						<div className="SlideImage">
 							<img
 								className="img-fluid"
@@ -29,7 +29,7 @@ const Slide = props => {
 						</div>
 					</div>
 
-					<div className="col-lg-8">
+					<div className="col-lg-7">
 						<div className="SlideDescription SlideDescriptionContainer">
 							<h3>{props.title}</h3>
 							<p>{props.description}</p>

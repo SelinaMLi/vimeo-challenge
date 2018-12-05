@@ -51,18 +51,21 @@ h2 {
   padding-left: 15%;
 }
 
-@media screen and (min-width: 1200px) and (max-width: 1600px) {
+@media only screen and (max-width: 1200px) {
   .Content_1 img {
     float: none;
     margin: auto;
+    display: block;
   }
   .Content_2 img {
     float: none;
     margin: auto;
+    display: block;
   }
   .Content_3 img {
     float: none;
     margin: auto;
+    display: block;
   }
 
   .text-1 {
