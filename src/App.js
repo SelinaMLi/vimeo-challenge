@@ -1,12 +1,12 @@
 import React, { Component } from "react";
-import VideoCarousel from "./components/Carousel";
+import VideoCarousel from "./components/VideoCarousel";
 import "./App.css";
 
 class App extends Component {
   render() {
     return (
       <div>
-        <div className="row Content_1">
+        <div className="row content-1">
           <div className="text-1 col-md-12 order-md-1 col-lg-6 order-lg-2">
             <h2>MONSOON III</h2>
             <p>
@@ -25,7 +25,7 @@ class App extends Component {
             />
           </div>
         </div>
-        <div className="row Content_2">
+        <div className="row content-2">
           <div className="text-2 col-lg-6">
             <h2>BEAMS</h2>
             <p>
@@ -44,7 +44,7 @@ class App extends Component {
             />
           </div>
         </div>
-        <div className="row Content_3">
+        <div className="row content-3">
           <div className="text-1 col-md-12 order-md-1 col-lg-6 order-lg-2">
             <h2>MOVE 2</h2>
             <p>
@@ -64,7 +64,7 @@ class App extends Component {
             />
           </div>
         </div>
-        <div className="row Carousel">
+        <div className="row">
           <div className="col-md-12 col-lg-12">
             <VideoCarousel />
           </div>

@@ -2,7 +2,7 @@ h2 {
   font-weight: bold;
 }
 
-.Content_1 {
+.content-1 {
   padding: 7%;
   height: 100%;
   width: 100%;
@@ -11,12 +11,12 @@ h2 {
   font-family: "Verdana";
 }
 
-.Content_1 img {
+.content-1 img {
   float: right;
 }
 
-.Content_2 {
-  padding: 150px 40px 30px 40px;
+.content-2 {
+  padding: 10% 7% 4% 7%;
   padding-left: 8%;
   height: 100%;
   width: 100%;
@@ -26,8 +26,8 @@ h2 {
   font-family: "Verdana";
 }
 
-.Content_3 {
-  padding: 30px 40px 50px 40px;
+.content-3 {
+  padding: 3% 7% 7% 7%;
   height: 100%;
   width: 100%;
   background-image: linear-gradient(#1b1c1c, #dadbdf);
@@ -36,7 +36,7 @@ h2 {
   font-family: "Verdana";
 }
 
-.Content_3 img {
+.content-3 img {
   float: right;
 }
 
@@ -52,17 +52,17 @@ h2 {
 }
 
 @media only screen and (max-width: 1200px) {
-  .Content_1 img {
+  .content-1 img {
     float: none;
     margin: auto;
     display: block;
   }
-  .Content_2 img {
+  .content-2 img {
     float: none;
     margin: auto;
     display: block;
   }
-  .Content_3 img {
+  .content-3 img {
     float: none;
     margin: auto;
     display: block;

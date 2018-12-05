@@ -15,12 +15,12 @@ const Slide = props => {
 	return (
 		<div className="row">
 			<div className="col-lg-12 " style={tint}>
-				<div className="SlideBg SlideBgBlur">
-					<img src={props.posterSrc} alt="" />
+				<div className="slideBg slideBgBlur">
+					<img className src={props.posterSrc} alt="" />
 				</div>
 				<div className="row">
-					<div className="col-lg-5 SlideImageContainer">
-						<div className="SlideImage">
+					<div className="col-lg-5">
+						<div className="slideImage">
 							<img
 								className="img-fluid"
 								src={props.posterSrc}
@@ -30,7 +30,7 @@ const Slide = props => {
 					</div>
 
 					<div className="col-lg-7">
-						<div className="SlideDescription SlideDescriptionContainer">
+						<div className="slideDescription">
 							<h3>{props.title}</h3>
 							<p>{props.description}</p>
 							<button className="btn" style={buyBtnStyle}>
